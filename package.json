@@ -1,0 +1,19 @@
+{
+  "name": "raspmirror",
+  "version": "1.0.0",
+  "description": "Widget for RaspberryPi Mirror",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 8000 &",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "raspberry-pi",
+    "mirror"
+  ],
+  "author": "ladicle",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.8.5"
+  }
+}
