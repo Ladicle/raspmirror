@@ -1,0 +1,9 @@
+a {
+  color: #ffa100;
+  -webkit-transition: color 0.1s ease-in-out;
+          transition: color 0.1s ease-in-out;
+}
+body {
+  color: #fff;
+  background: #000;
+}

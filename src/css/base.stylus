@@ -1,0 +1,10 @@
+accentColor = #FFA100
+
+a
+  color accentColor
+  transition color .1s ease-in-out
+
+body
+  color #fff
+  background #000
+  
