@@ -2,9 +2,18 @@ accentColor = #FFA100
 
 a
   color accentColor
-  transition color .1s ease-in-out
 
 body
-  color #fff
   background #000
-  
+  color #fff
+  font-size 5em
+  text-align right
+
+.time
+  font-size 2.4em
+  font-weight bold
+
+.ufo
+  position absolute
+  left 0
+  bottom 0

@@ -6,6 +6,14 @@ html
   head
     title #{title} - @#{author}
     meta(charset='utf-8')
-    link(rel='stylesheet' href='dst/base.css')
+    link(rel='stylesheet' type='text/css' href='dst/base.css')
+    script(src='lib/jquery.min.js')
+    script(src='dst/clock.js')
   body
-    h1 #{title}
+    div.wrap
+      div#clock
+        span.date
+        br
+        span.time
+      div.weather 17C Cloud
+      img.ufo(src='img/ufo.gif')
